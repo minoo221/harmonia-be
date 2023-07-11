@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_komponenty_long_texts",
+  "info": {
+    "displayName": "Dlhý text",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

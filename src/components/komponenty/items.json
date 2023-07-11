@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_komponenty_items",
+  "info": {
+    "displayName": "Položky",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "komponenty.shor-text"
+    }
+  }
+}

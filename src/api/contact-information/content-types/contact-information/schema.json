@@ -1,0 +1,46 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_informations",
+  "info": {
+    "singularName": "contact-information",
+    "pluralName": "contact-informations",
+    "displayName": "Kontaktné informácie",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "addressHome": {
+      "type": "component",
+      "repeatable": false,
+      "component": "komponenty.address"
+    },
+    "addressCompany": {
+      "type": "component",
+      "repeatable": false,
+      "component": "komponenty.address"
+    },
+    "telephones": {
+      "type": "component",
+      "repeatable": true,
+      "component": "komponenty.shor-text"
+    },
+    "email": {
+      "type": "string"
+    },
+    "ico": {
+      "type": "string"
+    },
+    "dic": {
+      "type": "string"
+    },
+    "icDph": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

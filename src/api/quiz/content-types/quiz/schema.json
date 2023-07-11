@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "quizes",
+  "info": {
+    "singularName": "quiz",
+    "pluralName": "quizes",
+    "displayName": "iQuiz",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Obsah": {
+      "type": "dynamiczone",
+      "components": [
+        "komponenty.galeria",
+        "komponenty.long-text",
+        "komponenty.shor-text"
+      ]
+    }
+  }
+}

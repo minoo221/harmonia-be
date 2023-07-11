@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_komponenty_shor_texts",
+  "info": {
+    "displayName": "Krátky text",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "item": {
+      "type": "string"
+    }
+  }
+}
