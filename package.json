@@ -17,6 +17,7 @@
     "@strapi/provider-email-sendgrid": "^4.11.0",
     "@strapi/strapi": "4.11.0",
     "pg": "^8.11.1",
+    "pg-connection-string": "^2.6.1",
     "strapi-plugin-email-designer": "^2.1.2",
     "strapi-plugin-ezforms": "^0.0.7",
     "strapi-plugin-multi-select": "^1.1.0",
