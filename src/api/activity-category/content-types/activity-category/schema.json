@@ -29,6 +29,14 @@
       "relation": "manyToMany",
       "target": "api::activity.activity",
       "mappedBy": "kategorie_okolias"
+    },
+    "desc": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text"
     }
   }
 }
