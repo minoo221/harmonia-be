@@ -104,6 +104,14 @@
       },
       "type": "boolean",
       "default": true
+    },
+    "sort": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }
