@@ -6,7 +6,10 @@
   },
   "options": {},
   "attributes": {
-    "item": {
+    "price": {
+      "type": "string"
+    },
+    "room": {
       "type": "string"
     }
   }
