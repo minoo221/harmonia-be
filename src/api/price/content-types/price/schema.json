@@ -32,7 +32,8 @@
       },
       "type": "text"
     },
-    "prices": {
+    "price": {
+      "displayName": "Cennik",
       "type": "component",
       "repeatable": true,
       "pluginOptions": {
@@ -40,7 +41,7 @@
           "localized": true
         }
       },
-      "component": "komponenty.shor-text"
+      "component": "komponenty.cennik"
     }
   }
 }
