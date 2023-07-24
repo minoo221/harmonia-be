@@ -1,17 +1,4 @@
 module.exports = ({ env }) => ({
-	/* email: {
-		config: {
-		provider: 'sendgrid', // For community providers pass the full package name (e.g. provider: 'strapi-provider-email-mandrill')
-		providerOptions: {
-			apiKey: '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',
-		},
-		settings: {
-			defaultFrom: 'milanblasko28@gmail.com',
-			defaultReplyTo: 'milanblasko28@gmail.com',
-			testAddress: 'milanblasko28@gmail.com',
-		},
-		},
-	}, */
 	"users-permissions": {
 		config: {
 			register: {
