@@ -7,17 +7,25 @@ module.exports = ({ env }) => ({
 		},
 	},
 	email: {
-    config: {
-      provider: 'sendgrid',
-      providerOptions: {
-        apiKey: env('SENDGRID_API_KEY'),
-      },
-      settings: {
-        defaultFrom: 'milanblasko28@gmail.com',
-        defaultReplyTo: 'milanblasko28@gmail.com',
-      },
-    },
-  },
+		config: {
+			provider: 'nodemailer',
+			providerOptions: {
+				host: env('SMTP_HOST'),
+				port: env('SMTP_PORT'),
+				auth: {
+					type: 'custom',
+					method: 'NTLM',
+					user: env('SMTP_USERNAME'),
+					pass: env('SMTP_PASSWORD'),
+				},
+			},
+			settings: {
+				defaultFrom: 'milanblasko28@gmail.com',
+				defaultReplyTo: 'milanblasko28@gmail.com',
+				testAddress: 'milanblasko28@gmail.com',
+			},
+		},
+	},
 	ezforms:{
 		config:{
 			captchaProvider: {
