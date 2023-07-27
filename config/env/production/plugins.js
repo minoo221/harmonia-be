@@ -13,8 +13,6 @@ module.exports = ({ env }) => ({
 				host: env('SMTP_HOST'),
 				port: env('SMTP_PORT'),
 				auth: {
-					type: 'custom',
-					method: 'NTLM',
 					user: env('SMTP_USERNAME'),
 					pass: env('SMTP_PASSWORD'),
 				},
