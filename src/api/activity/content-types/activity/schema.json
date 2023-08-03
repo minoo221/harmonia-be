@@ -53,6 +53,22 @@
       "relation": "manyToMany",
       "target": "api::activity-category.activity-category",
       "inversedBy": "okolies"
+    },
+    "distance": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "info": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text"
     }
   }
 }
