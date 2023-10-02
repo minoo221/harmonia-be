@@ -40,6 +40,9 @@ module.exports = ({ env }) => ({
 			]
 		}
 	},
+	'drag-drop-content-types': {
+		enabled: true
+	},
 	 upload: {
 		config: {
 		provider: "strapi-provider-upload-dos",

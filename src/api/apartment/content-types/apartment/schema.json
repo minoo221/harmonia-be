@@ -112,6 +112,25 @@
         }
       },
       "type": "string"
+    },
+    "Vybavenie": {
+      "displayName": "Vybavenie",
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "komponenty.vybavenie"
+    },
+    "info": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text"
     }
   }
 }

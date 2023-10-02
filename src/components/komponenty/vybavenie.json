@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_komponenty_vybavenies",
+  "info": {
+    "displayName": "Vybavenie"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}
