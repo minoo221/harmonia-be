@@ -9,10 +9,8 @@
     "title": {
       "type": "string"
     },
-    "item": {
-      "type": "component",
-      "repeatable": true,
-      "component": "komponenty.shor-text"
+    "val": {
+      "type": "string"
     }
   }
 }
