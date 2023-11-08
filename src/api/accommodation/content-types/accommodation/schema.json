@@ -55,6 +55,12 @@
       },
       "required": true,
       "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "titleHome": {
+      "type": "string"
+    },
+    "infoHome": {
+      "type": "text"
     }
   }
 }
