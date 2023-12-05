@@ -41,6 +41,12 @@
     },
     "name": {
       "type": "string"
+    },
+    "long": {
+      "type": "string"
+    },
+    "lat": {
+      "type": "string"
     }
   }
 }
