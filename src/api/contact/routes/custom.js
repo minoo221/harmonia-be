@@ -4,7 +4,7 @@ module.exports = {
       method: 'POST',
       path: '/send-contact',
       handler: 'contact.sendData',
-	  config: {
+	    config: {
         auth: false,
       },
     }
