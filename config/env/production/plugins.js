@@ -18,9 +18,9 @@ module.exports = ({ env }) => ({
 				},
 			},
 			settings: {
-				defaultFrom: 'milanblasko28@gmail.com',
-				defaultReplyTo: 'milanblasko28@gmail.com',
-				testAddress: 'milanblasko28@gmail.com',
+				defaultFrom: 'penzionharmonialm@gmail.com',
+				defaultReplyTo: 'penzionharmonialm@gmail.com',
+				testAddress: 'penzionharmonialm@gmail.com',
 			},
 		},
 	},
@@ -34,7 +34,7 @@ module.exports = ({ env }) => ({
 					provider: 'nodemailer',
 					enabled: true,
 					config: {
-						from: 'milanblasko28@gmail.com'
+						from: 'penzionharmonialm@gmail.com'
 					}
 				}
 			]
